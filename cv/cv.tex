@@ -1,0 +1,158 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.5in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{mdwlist}
+\usepackage[default]{lato}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{fontawesome5}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\DeclareFontFamily{U}{fontawesomeOne}{}
+\DeclareFontShape{U}{fontawesomeOne}{m}{n}
+{<-> FontAwesome--fontawesomeone}{}
+\DeclareRobustCommand\FAone{\fontencoding{U}\fontfamily{fontawesomeOne}\selectfont}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0em}
+
+% indentsection style, used for sections that aren't already in lists
+% that need indentation to the level of all text in the document
+\newenvironment{indentsection}[1]%
+{\begin{list}{}%
+{\setlength{\leftmargin}{#1}}%
+     \item[]
+}
+{\end{list}}
+
+% opposite of above; bump a section back toward the left margin
+\newenvironment{unindentsection}[1]%
+{\begin{list}{}%
+{\setlength{\leftmargin}{-0.5#1}}%
+\item[]%
+}
+{\end{list}}
+
+% format two pieces of text, one left aligned and one right aligned
+\newcommand{\headerrow}[2]
+{\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+#1 &
+#2 \\
+\end{tabular*}}
+
+% make "C++" look pretty when used in text by touching up the plus signs
+\newcommand{\CPP}
+{C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
+
+% and the actual content starts here
+\begin{document}
+
+\begin{center}
+	{\LARGE \textbf{Trofimov Nikita}}\\
+	Saint-Petersburg, Russia
+	\vspace{0.05cm}
+	\\
+	\raisebox{-0.2\height} {\Large \faPhoneSquare} \ \  +7 (921) 579-70-33 \hfill\raisebox{-0.2\height}{\Large \faEnvelopeSquare} \ \ trofim.nikita03@mail.ru \hfill \raisebox{-0.2\height}{\Large \faGithubSquare} \ \ \href{https://github.com/viajeroct}{github.com/viajeroct} \hfill \raisebox{-0.2\height}{\Large \faTelegram} \ \ \href{https://t.me/viajero_n}{\text{t.me/viajero\char`_n}}
+\end{center}
+
+\hrule
+\vspace{-1em}
+\subsection*{\Large Experience}
+
+\renewcommand\labelitemi{}
+\renewcommand\labelitemii{$\bullet$}
+
+
+\begin{itemize}[]
+	\item
+	      \textbf{\CPP}
+	      \begin{itemize*}
+	      	\item Automatic increase of image contrast using OpenMP
+	      	\item Analog of std::vector with small-object and copy on write optimizations
+	      	\item Library for working with long arithmetic, including division by O(nm)
+	      \end{itemize*}
+	      
+	      \textbf{Java}
+	      \begin{itemize*}
+	      	\item Numerical expression parser with calculation, using OOP and Generics
+	      	\item Disassembler of the executable elf file (some groups of commands)
+	      	\item Simple HTML to Markdown Converter
+	      \end{itemize*}
+	      
+	      \textbf{Haskell}
+	      \begin{itemize*}
+	      	\item A tic-tac-toe game with a graphical interface
+	      \end{itemize*}
+	      
+	      \textbf{Python}
+	      \begin{itemize*}
+	      	\item Assistance to the team in the implementation of telegram bot in the Kochubey Center
+	      \end{itemize*}
+	      	      
+\end{itemize}
+
+\hrule
+\vspace{-1em}
+\subsection*{\Large Skills}
+
+\hyphenpenalty=1000
+\begin{itemize}[leftmargin=1em,noitemsep]
+	\item \textbf{Languages:}
+	      C, \CPP, Java, Python, JavaScript, Haskell, Clojure, Prolog, \LaTeX, SQL, nasm
+	\item \textbf{Skills:}
+	      OOP, OpenMP, NumPy, Algorithms and data structures
+	\item \textbf{Tools:}
+	      Git, CLion, IntelliJ, Linux, Android Studio, VSCode, PyCharm
+    \item \textbf{Frameworks:}
+          Spring MVC, Spring Core
+    \item \textbf{Other:}
+          English, Spanish
+\end{itemize}
+
+\hrule
+\vspace{-1em}
+\subsection*{\Large Education}
+
+\begin{itemize}[leftmargin=1em]
+	\parskip=0.1em
+		
+	\item
+	      \headerrow
+	      {\textbf{ITMO University, CT}}
+	      {\emph{2021 -- Present}}
+	      \headerrow
+	      {\textbf{Presidential Lyceum 239}}
+	      {\emph{2019 -- 2021}}
+	      	      
+\end{itemize}
+
+\hrule
+\vspace{-1em}
+\subsection*{\Large Olympiads}
+
+\begin{itemize}[leftmargin=1em]
+	\parskip=0.1em
+		
+	\item
+	      \headerrow
+	      {\text{Winner of the regional stage in computer science}}
+	      {\emph{2020 -- 2021}}
+	      
+	      \headerrow
+	      {\text{Winner of the Olympiad cognitive technologies}}
+	      {\emph{2020}}
+	      	      
+\end{itemize}
+
+\hrule
+\vspace{-1em}
+\subsection*{\Large Certificates}
+
+\hyphenpenalty=1000
+\begin{itemize}[leftmargin=1em,noitemsep]
+	\item \textbf{Coursera: } \text{Machine Learning from Stanford University, \href{https://www.coursera.org/learn/machine-learning}{\underline{\text{Course}}}}
+	\item \textbf{Stepic: } \text{Introduction to Data Science by Bioinformatics Institute,  \href{https://stepik.org/cert/922301}{\underline{\text{Certificate}}}}
+	\item \textbf{ML: } \text{Machine Learning Summer School 2021 from JetBrains and CSC}
+\end{itemize}
+
+\end{document}

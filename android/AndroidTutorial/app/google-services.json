@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "7680230191",
+    "project_id": "navgraph-521b7",
+    "storage_bucket": "navgraph-521b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7680230191:android:e6bb8ebeca11f2551857da",
+        "android_client_info": {
+          "package_name": "com.viajero.androidtutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7680230191-9g4ea88ecgjeki5bi1tnr56tjj4mk29g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.viajero.androidtutorial",
+            "certificate_hash": "4353fbf609275571f048125070ca3746132ee10a"
+          }
+        },
+        {
+          "client_id": "7680230191-7bl70f7j6ch8ijv3fqv548ojur1hqaq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuIcl1hhWNH61g4KJCnqPO06XL2j5VwoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7680230191-7bl70f7j6ch8ijv3fqv548ojur1hqaq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

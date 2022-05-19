@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">viajero</string>
+    <string name="hello_android">0</string>
+    <string name="random_string">Random numbers from 0 to %d</string>
+    <string name="likes">Likes</string>
+    <string name="profile_avatar_cd">Profile\'s avatar</string>
+    <string name="last_name_label">Last name</string>
+    <string name="like">Like</string>
+    <string name="name_label">Name</string>
+    <string name="splash_fragment">Splash</string>
+    <string name="main_fragment">Main</string>
+    <string name="login_fragment">Login</string>
+    <string name="title_settings">Настройки</string>
+    <string name="title_like">Избранное</string>
+    <string name="title_feed">Лента</string>
+    <string name="best">Лучшее</string>
+    <string name="settings">Настройки</string>
+    <string name="feed">Лента</string>
+    <string name="spain">Испания!</string>
+    <string name="invest">Инвестируй в своё будущее!</string>
+    <string name="detail">detail</string>
+
+    <string name="personal_account_text">Личный кабинет</string>
+    <string name="login_button_text">Вход</string>
+    <string name="logout_button_text">Выход</string>
+    <string name="login_prompt">Выполните вход</string>
+    <string name="welcome_message">Привет, %1$s!</string>
+    <string name="login_unsuccessful_msg">Вход не выполнен</string>
+    <string name="login_successful_msg">Вход успешно выполнен</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_personal_account">Ваша личная страница!</string>
+    <string name="whats_your_name">Ваше имя ?</string>
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="notifications">Notifications</string>
+    <string name="_1">1</string>
+</resources>

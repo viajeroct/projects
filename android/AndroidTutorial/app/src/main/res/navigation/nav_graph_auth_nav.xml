@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_auth_nav"
+    app:startDestination="@id/mainFragmentAuthNav">
+
+    <fragment
+        android:id="@+id/mainFragmentAuthNav"
+        android:name="com.viajero.androidtutorial.authnav.MainFragmentAuthNav"
+        android:label="fragment_main_auth_nav"
+        tools:layout="@layout/fragment_main_auth_nav" />
+    <fragment
+        android:id="@+id/loginFragmentAuthNav"
+        android:name="com.viajero.androidtutorial.authnav.LoginFragmentAuthNav"
+        android:label="fragment_login_auth_nav"
+        tools:layout="@layout/fragment_login_auth_nav" />
+    <fragment
+        android:id="@+id/accountFragmentAuthNav"
+        android:name="com.viajero.androidtutorial.authnav.AccountFragmentAuthNav"
+        android:label="fragment_account_auth_nav"
+        tools:layout="@layout/fragment_account_auth_nav" />
+</navigation>
