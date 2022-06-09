@@ -7,6 +7,9 @@
 - 5 scripts for various purposes
 
 ### cpp
+##### circular_buffer
+- implementation of cyclic queue, iterator and const_iterator
+
 ##### big_integer
 - library for working with long numbers, including division by O(nm)
 
