@@ -1,12 +1,21 @@
 ### assembler
-- Multiplication of two long numbers
-- Subtracting two long numbers
-- Utility for counting the number of words in a file
+- multiplication of two long numbers
+- subtracting two long numbers
+- utility for counting the number of words in a file
 
 ### bash
 - 5 scripts for various purposes
 
 ### cpp
+##### set
+- implementation of a balanced binary search tree using information about parents
+
+##### socow-vector
+- vector implementation (std::vector) with small object and copy on write modifications
+
+##### list
+- implementation of a doubly linked list, base_node
+
 ##### circular_buffer
 - implementation of cyclic queue, iterator and const_iterator
 
@@ -24,6 +33,9 @@
 
 ### cv
 - cv.text and cv.pdf
+
+### paradigms
+- different tasks in different programming languages (clojure, prolog, java, javascript), different programming paradigms are applied
 
 ### haskell/tic-tac-toe
 - tic tac toe game on haskell with graphical interface
@@ -43,4 +55,3 @@
 
 ##### spring-tutorial
 - spring tutorial in java
-
